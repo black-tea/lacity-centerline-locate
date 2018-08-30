@@ -6,7 +6,6 @@
 library(shiny)
 library(DT)
 library(leaflet)
-library(shinyjs)
 library(sf)
 library(dplyr)
 
@@ -14,8 +13,6 @@ appCSS <- ".mandatory_star { color: red; }"
 
 ### User Interface
 ui <- fluidPage(
-  shinyjs::useShinyjs(),
-  shinyjs::inlineCSS(appCSS),
   titlePanel("New Treatment"),
   
   div(

@@ -3,7 +3,6 @@
 #######################################
 
 library(shiny)
-library(shinyjs)
 library(sf) 
 library(googlesheets)
 
